@@ -30,18 +30,42 @@ header h1 {
 }
 
 .form-btn-konversi {
-    background-color: green;
+    background-color: rgb(79, 201, 79);
     color: white;
 }
 
 .form-btn-reset {
-    background-color: blue;
+    background-color: rgb(253, 190, 73);
     color: white;
 }
 
 .form-btn-reverse {
-    background-color: red;
+    background-color: rgb(250, 101, 101);
     color: white;
+}
+
+.form-btn-konversi:hover {
+    background-color: green;
+}
+
+.form-btn-konversi:active {
+    transform: scale(0.80);
+}
+
+.form-btn-reset:hover {
+    background-color: orange;
+}
+
+.form-btn-reset:active {
+    transform: scale(0.80);
+}
+
+.form-btn-reverse:hover {
+    background-color: red;
+}
+
+.form-btn-reverse:active {
+    transform: scale(0.80);
 }
 
 textarea {
@@ -54,4 +78,8 @@ textarea {
     background-color: #f8f8f8;
     font-size: 16px;
     resize: none;
+}
+
+section header h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

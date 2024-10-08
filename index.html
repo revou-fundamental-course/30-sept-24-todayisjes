@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Jessica</title>
     <link rel="stylesheet" href="css\style.css">
-    <script src="script.js"></script>
+    <title>Project Jessica</title>
 </head>
 <body>
     <header>
@@ -31,9 +30,9 @@
                     <textarea name="" id="input-suhu"></textarea>
                 </div>
 
-                <button onclick="" class="form-btn form-btn-konversi">Konversi</button>
-                <button onclick="" class="form-btn form-btn-reset">Reset</button>
-                <button onclick="" class="form-btn form-btn-reverse">Reverse</button>
+                <button onclick="konversiSuhu()" class="form-btn form-btn-konversi">Konversi</button>
+                <button onclick="resetInput()" class="form-btn form-btn-reset">Reset</button>
+                <button onclick="reverseKonversi()" class="form-btn form-btn-reverse">Reverse</button>
             </form>
 
             <!-- Hasil Inputan-->
@@ -43,7 +42,7 @@
                 </div>
 
                 <div>
-                    <textarea name="" id="output-suhu-suhu"></textarea>
+                    <textarea name="" id="output-suhu"></textarea>
                 </div>
             </div>
 
@@ -81,7 +80,9 @@
     </main>
 
     <footer>
-        <p>Made by Jessica Uly @2024</p>
+        <p>Made by Jessica Uly &copy; 2024</p>
     </footer>
+    
+    <script src="js\script.js"></script>
 </body>
 </html>
