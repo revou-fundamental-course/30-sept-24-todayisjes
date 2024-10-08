@@ -29,7 +29,7 @@ function reverseKonversi() {
     const fahrenheit = parseFloat(outputSuhu.value);
     if (!isNaN(fahrenheit)) {
         const celsius = (fahrenheit - 32) * 5/9;
-        inputSuhu.value = celsius.toFixed(2); // Menampilkan hasil dengan 2 desimal
+        inputSuhu.value = celsius.toFixed(2);
         howCalculate.value = `${fahrenheit}°F - 32 * (5/9) = ${celsius.toFixed(2)}°C`;
     } else {
         alert("Masukkan nilai Fahrenheit!");
